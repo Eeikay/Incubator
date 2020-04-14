@@ -1,0 +1,46 @@
+h1{
+	color:purple;
+	font-family: sans-serif;
+	text-align: center;
+	text-decoration: line-through;
+	text-transform: capitalize; 
+	text-shadow: 0px 0px 6px pink;
+	background color:#fbdd64;
+	
+}
+p{
+	color: #f0f6f7;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color:#4c4f6a ;
+	padding: 5px 8px 6px 5px;
+	border-style: solid;
+	border-color: #fbdd64;
+	border-width: 10%;
+
+}
+pre{
+	font-style: italic;
+	color: olive;
+	
+}
+p q{
+	color: blue;
+}
+p i{ //parent sibling selector
+color: blue;
+}
+nav ui{
+	list-style-type: none; i
+}
+nav li{
+	display: inline;
+}
+blockquote{
+	word-spacing: 4px;
+}
+
+p img{
+	float: left;
+	margin: right;
+}

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+article,aside,footer,header,main,nav,section{
+	display: block;
+} 
+html, body, h1, h2, h3, ul, li, a, p, article,
+aside, footer, section, header, nav
+{
+padding: 0;
+margin: 0;
+}
+.banner{
+	background-color: #8b0000;
+	color: white;
+	padding: 10px 20px;
+}
+body{
+	background-image: url(../documents/image/callcenter.jpg);
+	margin-right: auto;
+	margin-left: auto;
+	
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+nav{
+	background-color: #000000;
+
+}
+li a{
+	color: white;
+	padding: 5px;
+}
+li{
+	display: inline;
+	margin-left: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+section
+{
+	background-color: #dcdcdc ;
+	margin-top: 8px;
+	padding: 5px;
+}
+article{
+	background-color: white;
+	margin-top: 5px;
+	padding: 10px 15px;
+}
+aside{
+	background-color: #8b0000;
+	color: white;
+	width: 270px;
+	padding: 5px;
+}
+nav a:hover{
+	color: cyan;
+}
+nav a:active{
+	color: yellow;
+}
+nav a:link{
+	color: #dcdcdc;
+}
+
+.p:first-line{
+   font-size: 40px;
+}
